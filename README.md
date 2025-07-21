@@ -16,7 +16,7 @@ The goal of this project is to analyze Amazon order data and gain insights into:
 
 ## 🧰 Tools & Technologies
 
-- **Python** (for data cleaning & EDA)
+- **Python** (for data cleaning & processing)
   - *Pandas* (for loading data)
 - **Power BI** (for interactive dashboard)
 
@@ -30,8 +30,6 @@ The dataset contains detailed Amazon sales records with the following sample col
 - `Style`, `SKU`, `Category`, `Qty`, `Amount`, `Courier Status`
 - `ship-city`, `ship-state`, `ship-country`, `promotion-ids`, `B2B`
 
-> 🚨 **Note**: Dataset is not shared publicly due to privacy or proprietary reasons. You can use your own dataset with similar structure.
-
 ---
 
 ## 🔧 Steps Performed
@@ -41,13 +39,7 @@ The dataset contains detailed Amazon sales records with the following sample col
 - Fixed date formats and standardized column names
 - Filtered out irrelevant or test data
 
-### 2. 📊 Exploratory Data Analysis (Python)
-- Sales trends over time
-- Cancellation & fulfilment rates
-- Regional distribution of orders
-- Category-wise performance
-
-### 3. 🖼️ Power BI Dashboard
+### 2. 🖼️ Power BI Dashboard
 - Dynamic KPI cards: Total Sales, Orders, Cancellations
 - Bar and Line Charts: Monthly trends, regional breakdown
 - Filters: Date, State, Category, Courier Status
